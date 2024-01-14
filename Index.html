@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhijit's Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="left">Abhijit's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About me</a></li>
+            <li><a href="/">Resume</a></li>
+            <li><a href="/">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <hr>
+
+    <main>
+      <section class="firstSection">
+          <div class="leftSection">
+             Hi, my name is
+             <span class="purple">Abhijit!</span>
+             <div>
+                 <span id="element"></span>
+             </div>
+            <div class="button">
+              <button class="btn">Download Resume</button>
+              <button class="btn">Visit Github</button>
+            </div>
+          </div>
+          <div class="rightSection">
+             <img src="My_image.jpg"/>
+          </div>
+      </section>
+      <hr>
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="line">
+           <div class="vertical">
+            <img class="image-top" src="developer.png" alt="">
+            <div class="vertical-title">
+              Innovison Student Co-ordinator
+              (Feb-March 2023)
+            </div>
+            <div class="vertical-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam odio a molestias et fugiat assumenda inventore
+              molestiae? Ipsum voluptates suscipit consequatur id porro dolore ullam! Ducimus magni modi quidem in.
+            </div>
+           </div>
+           <div class="vertical">
+            <img class="image-top" src="developer.png" alt="">
+            <div class="vertical-title">
+              Web-development training
+              ChanakyaUni(July 2023-Sep 2023)
+            </div>
+            <div class="vertical-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam odio a molestias et fugiat assumenda inventore
+              molestiae? Ipsum voluptates suscipit consequatur id porro dolore ullam! Ducimus magni modi quidem in.
+            </div>
+           </div>
+           <div class="vertical">
+            <img class="image-top" src="developer.png" alt="">
+            <div class="vertical-title">
+              Student-Coordinator
+              Professional Devlopment Cell(Oct 2022- present)
+            </div>
+            <div class="vertical-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam odio a molestias et fugiat assumenda inventore
+              molestiae? Ipsum voluptates suscipit consequatur id porro dolore ullam! Ducimus magni modi quidem in.
+            </div>
+           </div>
+           <div class="vertical">
+            <img class="image-top" src="developer.png" alt="">
+            <div class="vertical-title">
+               ACM Chapter Member(Aug 2022- June 2023)
+            </div>
+            <div class="vertical-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam odio a molestias et fugiat assumenda inventore
+              molestiae? Ipsum voluptates suscipit consequatur id porro dolore ullam! Ducimus magni modi quidem in.
+            </div>
+           </div>
+        </div>
+      </section>
+    </main>
+    
+    
+    <hr>
+    <footer>
+      <div class="footer">
+         <div class="f-element">
+          ©Abhijit Kulkarni 2023|
+         </div>
+         <div class="f-element">
+          All rights reserved
+         </div>
+      </div>
+    </footer>
+
+    <!--Here Typejs is used-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Problem Solver!","Aspiring Software Developer!"],
+        typeSpeed: 80,
+        loop:true
+      });
+    </script>
+  </body>
+</html>
